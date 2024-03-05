@@ -1,0 +1,10 @@
+dist
+node_modules
+
+src/batching-deoptimized/db/emails.csv
+src/batching-deoptimized/db/todos.json
+src/batching-deoptimized/db/users.json
+
+src/batching/db/emails.csv
+src/batching/db/todos.json
+src/batching/db/users.json
