@@ -1,0 +1,31 @@
+{
+  "name": "why-effect",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc --build --watch",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@effect/platform": "^0.52.2",
+    "@effect/platform-node": "^0.48.3",
+    "@effect/opentelemetry": "^0.34.2",
+    "@effect/schema": "^0.66.14",
+    "@opentelemetry/sdk-metrics": "^1.24.0",
+    "@opentelemetry/sdk-trace-base": "^1.24.0",
+    "@opentelemetry/sdk-trace-node": "^1.24.0",
+    "@opentelemetry/sdk-trace-web": "^1.24.0",
+    "effect": "^3.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.8",
+    "tsx": "^4.9.0",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "pnpm@9.0.6+sha256.0624e30eff866cdeb363b15061bdb7fd9425b17bc1bb42c22f5f4efdea21f6b3"
+}
